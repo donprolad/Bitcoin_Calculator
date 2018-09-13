@@ -1,0 +1,19 @@
+{
+  "name": "bitcoin_calculator",
+  "version": "1.0.0",
+  "description": "a simple bitcoin calculator built with HTML5,CSS3 and JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donprolad/Bitcoin_Calculator.git"
+  },
+  "author": "Don Prolad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donprolad/Bitcoin_Calculator/issues"
+  },
+  "homepage": "https://github.com/donprolad/Bitcoin_Calculator#readme"
+}
