@@ -24,11 +24,10 @@ document.querySelector('.investment__btn').addEventListener('click', () => {
   if (profit > 0) {
     msg = `You made profit of $${profit} (${growth}%).`
     resultField.style.color = '#00FF00'
-  }
-  else if (profit < 0) {
+  } else if (profit < 0) {
     msg = `You made a loss`
-  }
-  else {
+    resultField.style.color = '#FF0000'
+  } else {
     msg = 'You Broke Even'
   }
   resultField.textContent = msg
